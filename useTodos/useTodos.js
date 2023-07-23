@@ -1,5 +1,5 @@
 import { useEffect, useReducer } from 'react';
-import { toDoReducer } from '../08-useReducer/toDoReducer';
+import { toDoReducer } from './toDoReducer';
 
 // Get toDos from browser local storage, if null return []
 const init = () => {
